@@ -40,7 +40,6 @@ INSTALLED_APPS = [
 
     'corsheaders',
     'rest_framework',
-    
     'articles'
 ]
 
@@ -134,4 +133,4 @@ REST_FRAMEWORK = {
     ]
 }
 
-CORS_ORIGIN_ALLOW_ALL = True 
+CORS_ORIGIN_ALLOW_ALL = True;
