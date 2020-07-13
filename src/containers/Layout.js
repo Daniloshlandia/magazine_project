@@ -44,13 +44,15 @@ class CustomLayout extends React.Component {
                 <Breadcrumb style={{ margin: '16px 0' }}>
                     <Breadcrumb.Item><Link to="/">Home</Link></Breadcrumb.Item>
                     <Breadcrumb.Item><Link to="/">List</Link></Breadcrumb.Item>
+                    <Breadcrumb.Item><Link to="/">About</Link></Breadcrumb.Item>
+
                 </Breadcrumb>
                     <div style={{ background: '#fff', padding: 24, minHeight: 280 }}>
                         {this.props.children}
                     </div>
                 </Content>
                 <Footer style={{ textAlign: 'center' }}>
-                Ant Design ©2016 Created by Ant UED
+                DashTryTeam@2020
                 </Footer>
             </Layout>
         );
